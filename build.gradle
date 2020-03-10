@@ -50,5 +50,5 @@ jar {
         ])
     }
     from "LICENSE"
-    archiveAppendix.set "1.15.2-fabric"
+    archiveAppendix.set "${project.minecraft_version}-fabric"
 }
